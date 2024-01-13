@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #ff0808;
+    color: white;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: 5px solid black;
+    border-radius: 5% 0 5% 0;
+    padding-left: 35px;
+    padding-top: 35px;
+     /* this will add equal space between each image */
+}
+
+.attraction-img{
+    border-radius: 15% 0 15% 0;
+    padding-right: 1em;
+}
+  
+.image-name {
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: rgb(0, 0, 0);
+}
+
+nav ul {
+    list-style: none;
+    padding: 1px;
+    background-color: yellow;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #ff0808;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+#contact-header {
+    background-color: #ff0808;
+    color: white;
+    padding: 0.84em;
+}
+
+#contact-footer {
+    background-color: #ff0808;
+    color: white;
+    text-align: right;
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+#contact-form button {
+    background-color: #ff0808;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #ff0808;
+}
+
+#return {
+    padding-left: 1em;
+}
